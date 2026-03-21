@@ -8,73 +8,38 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
-      image:
-        filename: welcome.jpg
-      text: |
-        <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        Решеточные газы, решеточное уравнение Больцмана
   
-  - block: collection
-    content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
+      cta:
+        label: "Список литературы"
+        url: "/publication"
   
   - block: markdown
     content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+      title: "Введение"
+      text: |-
+        В современной вычислительной гидродинамике (CFD) существует потребность в моделировании течений жидкости и газа на различных масштабах. Традиционные методы, основанные на решении уравнений Навье-Стокса, часто сталкиваются с трудностями при моделировании течений в сложных геометриях, многофазных потоков или процессов на микроуровне. Альтернативным подходом являются кинетические методы, которые рассматривают жидкость не как сплошную среду, а как ансамбль частиц.
 
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
+        В данной работе рассматривается эволюция этих методов: от простых клеточных автоматов (решеточные газы) до современного метода решеточных уравнений Больцмана (LBE). Материал основан на главе 2.4 учебного пособия "Моделирование физических процессов и явлений на ПК" под редакцией Медведева Д.А. и др.
 
   - block: markdown
     content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
+      title: "Теоретическая часть"
+      text: |-
+        ## Кинетический подход к гидродинамике
+
+        Классическая гидродинамика оперирует макроскопическими полями (скорость, плотность, давление). Кинетические методы, напротив, описывают систему через функции распределения частиц, что позволяет моделировать более широкий класс явлений, получая макроскопические параметры как моменты функций распределения.
+
+  - block: features
+    content:
+      title: "Направления исследований"
+      items:
+        - name: "Решеточные газы (LGA)"
+          description: "Дискретные во времени и пространстве модели с булевой динамикой"
+        - name: "Решеточные уравнения Больцмана (LBE)"
+          description: "Методы с функциями распределения, устраняющие статистический шум"
+        - name: "Многофазные течения"
+          description: "Моделирование несмешивающихся жидкостей и фазовых переходов"
+        - name: "Химические реакции"
+          description: "Сопряжение гидродинамики с кинетикой химических процессов"
 ---

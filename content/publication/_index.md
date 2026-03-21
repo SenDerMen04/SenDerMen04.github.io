@@ -1,11 +1,13 @@
 ---
-title: Publications
+title: "Публикации"
+summary: "Научные работы по кинетическим методам в гидродинамике"
+date: 2026-03-21
+type: landing
 
-# Listing view
-view: citation
-
-# Optional banner image (relative to `assets/media/` folder).
-banner:
-  caption: ''
-  image: ''
+sections:
+  - block: markdown
+    content:
+      title: "Основные источники"
+      text: |-
+        Медведев Д. А., Куперштох А. Л., Прууэл Э. Р., Сатонкина Н. П., Карпов Д. И. "Моделирование физических процессов и явлений на ПК" — Новосибирск: Новосиб. гос. ун-т., 2010. — 101 с. (Глава 2.4, стр. 50-64).
 ---
