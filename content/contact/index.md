@@ -24,7 +24,7 @@ sections:
         street: ул. Орджоникидзе 3
         city: Москва
         region: Москва
-        postcode: '101000'
+        postcode: '101001'
         country: Российская Федерация
         country_code: РФ
       coordinates:
