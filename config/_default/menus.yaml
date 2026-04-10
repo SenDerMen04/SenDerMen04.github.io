@@ -16,3 +16,6 @@ main:
   - name: О нас
     url: contact
     weight: 40
+  - name: 2 этап
+    url: secondstage
+    weight: 50
