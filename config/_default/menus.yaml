@@ -22,3 +22,7 @@ main:
   - name: 3 этап
     url: thirdstage
     weight: 60
+  - name: 4 этап
+    url: fourthstage
+    weight: 70
+
